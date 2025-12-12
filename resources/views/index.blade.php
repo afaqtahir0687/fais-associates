@@ -48,50 +48,34 @@
         </div>
     </section>
 
-    <section class="ftco-counter img bg-light" id="section-counter">
+    <section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="about-section">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3 justify-content-center counter-wrap ftco-animate">
-                    <div class="block-18 d-flex">
-                        <div class="icon d-flex justify-content-center align-items-center">
-                            <span class="flaticon-suitcase"></span>
-                        </div>
-                        <div class="text">
-                            <strong class="number" data-number="750">0</strong>
-                            <span>Project Complete</span>
+            <div class="row d-flex no-gutters">
+                <div class="col-lg-1"></div>
+                <div class="col-md-4 col-lg-4 d-flex">
+                    <div class="img-about img d-flex align-items-stretch">
+                        <div class="overlay"></div>
+                        <div class="img d-flex align-self-stretch align-items-center mt-5"
+                            style="background-image:url({{ asset('assets/images/vision.png') }});">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 justify-content-center counter-wrap ftco-animate">
-                    <div class="block-18 d-flex">
-                        <div class="icon d-flex justify-content-center align-items-center">
-                            <span class="flaticon-loyalty"></span>
-                        </div>
-                        <div class="text">
-                            <strong class="number" data-number="568">0</strong>
-                            <span>Happy Clients</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 justify-content-center counter-wrap ftco-animate">
-                    <div class="block-18 d-flex">
-                        <div class="icon d-flex justify-content-center align-items-center">
-                            <span class="flaticon-coffee"></span>
-                        </div>
-                        <div class="text">
-                            <strong class="number" data-number="478">0</strong>
-                            <span>Cups of coffee</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 justify-content-center counter-wrap ftco-animate">
-                    <div class="block-18 d-flex">
-                        <div class="icon d-flex justify-content-center align-items-center">
-                            <span class="flaticon-calendar"></span>
-                        </div>
-                        <div class="text">
-                            <strong class="number" data-number="780">0</strong>
-                            <span>Years experienced</span>
+                <div class="col-md-6 col-lg-7 pl-md-4 pl-lg-5">
+                    <div class="py-md-5">
+                        <div class="row justify-content-start pb-3">
+                            <div class="col-md-12 heading-section ftco-animate">
+                                <h2 style="font-size: 34px; text-transform: capitalize;">Vision Statement</h2>
+                                <p>Empowering businesses and individuals to
+                                    Achieve More—by delivering excellence in HR,
+                                    management, finance, technology, and beyond.
+                                    We envision a world where organizations
+                                    thrive through strategic consulting, seamless
+                                    operations, and transformative learning. With
+                                    innovation, integrity, and expertise, we unlock
+                                    potential, drive efficiency, and turn ambitions
+                                    into achievements.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -102,11 +86,46 @@
     <section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="about-section">
         <div class="container">
             <div class="row d-flex no-gutters">
+                <div class="col-md-6 col-lg-7 pl-md-4 pl-lg-5 py-5">
+                    <div class="py-md-5">
+                        <div class="row justify-content-start pb-3">
+                            <div class="col-md-12 heading-section ftco-animate">
+                                <h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">Mission Statement</h2>
+                                <p>To equip businesses with integrated, highimpact
+                                    solutions—from HR and financial
+                                    consulting to IT, facilities, and corporate training
+                                    —enabling them to operate smarter, grow
+                                    faster, and achieve more. Through tailored
+                                    expertise, cutting-edge tools, and a client-first
+                                    approach, we turn challenges into
+                                    opportunities, ensuring sustainable success in
+                                    an ever-evolving marketplace.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-6 col-lg-5 d-flex">
                     <div class="img-about img d-flex align-items-stretch">
                         <div class="overlay"></div>
                         <div class="img d-flex align-self-stretch align-items-center"
-                            style="background-image:url(images/about-1.jpg);">
+                            style="background-image:url({{ asset('assets/images/mission.png') }});">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+        <div class="container">
+            <div class="row d-flex no-gutters">
+                <div class="col-md-6 col-lg-5 d-flex">
+                    <div class="img-about img d-flex align-items-stretch">
+                        <div class="overlay"></div>
+                        <div class="img d-flex align-self-stretch align-items-center"
+                            style="background-image:url({{ asset('assets/images/values.png') }});">
                         </div>
                     </div>
                 </div>
@@ -114,48 +133,30 @@
                     <div class="py-md-5">
                         <div class="row justify-content-start pb-3">
                             <div class="col-md-12 heading-section ftco-animate">
-                                <span class="subheading">My Intro</span>
-                                <h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">About Me</h2>
-                                <p>A small river named Duden flows by their place and supplies it with the necessary
-                                    regelialia. It is a paradisematic country, in which roasted parts of sentences fly into
-                                    your mouth.</p>
-
-                                <ul class="about-info mt-4 px-md-0 px-2">
-                                    <li class="d-flex"><span>Name:</span> <span>Clyde Nowitzki</span></li>
-                                    <li class="d-flex"><span>Date of birth:</span> <span>January 01, 1990</span></li>
-                                    <li class="d-flex"><span>Address:</span> <span>San Francisco CA 97987 USA</span></li>
-                                    <li class="d-flex"><span>Zip code:</span> <span>1000</span></li>
-                                    <li class="d-flex"><span>Email:</span> <span>cydenowitzki@gmail.com</span></li>
-                                    <li class="d-flex"><span>Phone: </span> <span>+1-2234-5678-9-0</span></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="my-interest d-lg-flex w-100">
-                                    <div class="interest-wrap d-flex align-items-center">
-                                        <div class="icon d-flex align-items-center justify-content-center">
-                                            <span class="flaticon-listening"></span>
-                                        </div>
-                                        <div class="text">Music</div>
-                                    </div>
-                                    <div class="interest-wrap d-flex align-items-center">
-                                        <div class="icon d-flex align-items-center justify-content-center">
-                                            <span class="flaticon-suitcases"></span>
-                                        </div>
-                                        <div class="text">Travel</div>
-                                    </div>
-                                    <div class="interest-wrap d-flex align-items-center">
-                                        <div class="icon d-flex align-items-center justify-content-center">
-                                            <span class="flaticon-video-player"></span>
-                                        </div>
-                                        <div class="text">Movie</div>
-                                    </div>
-                                    <div class="interest-wrap d-flex align-items-center">
-                                        <div class="icon d-flex align-items-center justify-content-center">
-                                            <span class="flaticon-football"></span>
-                                        </div>
-                                        <div class="text">Sports</div>
-                                    </div>
-                                </div>
+                                <h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">Core Values</h2>
+                                <span class="subheading">1. Integrity & Reliability</span>
+                                <p>We build trust through transparency, ethical
+                                    practices, and unwavering accountability—
+                                    delivering on every promise with consistency and
+                                    professionalism
+                                </p>
+                                <span class="subheading">2. Excellence Through Efficiency</span>
+                                <p>We maximize productivity and minimize waste—
+                                    leveraging smart processes, technology, and
+                                    expertise to achieve optimal results for our
+                                    clients.
+                                </p>
+                                <span class="subheading">3. Innovate with Purpose</span>
+                                <p>We embrace forward-thinking solutions that
+                                    drive cost-effective growth, blending creativity
+                                    with practicality to stay ahead in a dynamic
+                                    world.
+                                </p>
+                                <span class="subheading">4. Win-Win Partnerships</span>
+                                <p>We succeed when our clients succeed. By
+                                    aligning our goals with theirs, we foster long-term
+                                    collaboration, mutual growth, and shared value.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -164,217 +165,48 @@
         </div>
     </section>
 
-    <section class="ftco-section bg-light" id="skills-section">
+      <section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="about-section">
         <div class="container">
             <div class="row justify-content-center pb-5">
                 <div class="col-md-12 heading-section text-center ftco-animate">
-                    <span class="subheading">Skills</span>
-                    <h2 class="mb-4">My Skills</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                    <span class="about-txt mt-5">About Us</span>
                 </div>
             </div>
-            <div class="row progress-circle mb-5">
-                <div class="col-lg-4 mb-4">
-                    <div class="bg-white rounded-lg shadow p-4">
-                        <h2 class="h5 font-weight-bold text-center mb-4">CSS</h2>
-
-                        <!-- Progress bar 1 -->
-                        <div class="progress mx-auto" data-value='95'>
-                            <span class="progress-left">
-                                <span class="progress-bar border-primary"></span>
-                            </span>
-                            <span class="progress-right">
-                                <span class="progress-bar border-primary"></span>
-                            </span>
-                            <div
-                                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                                <div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
-                            </div>
+            <div class="row d-flex no-gutters">
+                <div class="col-md-6 col-lg-5 d-flex">
+                    <div class="img-about img d-flex align-items-stretch">
+                        <div class="overlay"></div>
+                        <div class="img d-flex align-self-stretch align-items-center"
+                            style="background-image:url({{ asset('assets/images/about-1.jpg') }});">
                         </div>
-                        <!-- END -->
-
-                        <!-- Demo info -->
-                        <div class="row text-center mt-4">
-                            <div class="col-6 border-right">
-                                <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last
-                                    week</span>
-                            </div>
-                            <div class="col-6">
-                                <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last
-                                    month</span>
-                            </div>
-                        </div>
-                        <!-- END -->
                     </div>
                 </div>
-
-                <div class="col-lg-4 mb-4">
-                    <div class="bg-white rounded-lg shadow p-4">
-                        <h2 class="h5 font-weight-bold text-center mb-4">HTML</h2>
-
-                        <!-- Progress bar 1 -->
-                        <div class="progress mx-auto" data-value='98'>
-                            <span class="progress-left">
-                                <span class="progress-bar border-primary"></span>
-                            </span>
-                            <span class="progress-right">
-                                <span class="progress-bar border-primary"></span>
-                            </span>
-                            <div
-                                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                                <div class="h2 font-weight-bold">98<sup class="small">%</sup></div>
+                <div class="col-md-6 col-lg-7 pl-md-4 pl-lg-5 py-5">
+                    <div class="py-md-5">
+                        <div class="row justify-content-start pb-3">
+                            <div class="col-md-12 heading-section ftco-animate">
+                                <h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">The Team of FAIS Associates</h2>
+                                <p>For over 3 decades, our team of
+                                    industry experts has built a legacy of
+                                    excellence, driven by shared values of
+                                    trust, hard work, honesty, and
+                                    companionship. What began as a group
+                                    of seasoned professionals with deep
+                                    specialization in our respective fields
+                                    evolved into more than just a
+                                    companionship — it became a bond
+                                    forged through challenges overcome,
+                                    successes celebrated, and an
+                                    unwavering commitment to delivering
+                                    results. Our friendship is the foundation
+                                    of our collaboration, ensuring that every
+                                    client benefits not just from our
+                                    expertise, but from a team that truly
+                                    cares. Together, we don’t just serve—we
+                                    elevate.
+                                </p>
                             </div>
                         </div>
-                        <!-- END -->
-
-                        <!-- Demo info -->
-                        <div class="row text-center mt-4">
-                            <div class="col-6 border-right">
-                                <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last
-                                    week</span>
-                            </div>
-                            <div class="col-6">
-                                <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last
-                                    month</span>
-                            </div>
-                        </div>
-                        <!-- END -->
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4">
-                    <div class="bg-white rounded-lg shadow p-4">
-                        <h2 class="h5 font-weight-bold text-center mb-4">jQuery</h2>
-
-                        <!-- Progress bar 1 -->
-                        <div class="progress mx-auto" data-value='68'>
-                            <span class="progress-left">
-                                <span class="progress-bar border-primary"></span>
-                            </span>
-                            <span class="progress-right">
-                                <span class="progress-bar border-primary"></span>
-                            </span>
-                            <div
-                                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                                <div class="h2 font-weight-bold">68<sup class="small">%</sup></div>
-                            </div>
-                        </div>
-                        <!-- END -->
-
-                        <!-- Demo info -->
-                        <div class="row text-center mt-4">
-                            <div class="col-6 border-right">
-                                <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last
-                                    week</span>
-                            </div>
-                            <div class="col-6">
-                                <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last
-                                    month</span>
-                            </div>
-                        </div>
-                        <!-- END -->
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4">
-                    <div class="bg-white rounded-lg shadow p-4">
-                        <h2 class="h5 font-weight-bold text-center mb-4">Photoshop</h2>
-
-                        <!-- Progress bar 1 -->
-                        <div class="progress mx-auto" data-value='92'>
-                            <span class="progress-left">
-                                <span class="progress-bar border-primary"></span>
-                            </span>
-                            <span class="progress-right">
-                                <span class="progress-bar border-primary"></span>
-                            </span>
-                            <div
-                                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                                <div class="h2 font-weight-bold">92<sup class="small">%</sup></div>
-                            </div>
-                        </div>
-                        <!-- END -->
-
-                        <!-- Demo info -->
-                        <div class="row text-center mt-4">
-                            <div class="col-6 border-right">
-                                <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last
-                                    week</span>
-                            </div>
-                            <div class="col-6">
-                                <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last
-                                    month</span>
-                            </div>
-                        </div>
-                        <!-- END -->
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4">
-                    <div class="bg-white rounded-lg shadow p-4">
-                        <h2 class="h5 font-weight-bold text-center mb-4">WordPress</h2>
-
-                        <!-- Progress bar 1 -->
-                        <div class="progress mx-auto" data-value='83'>
-                            <span class="progress-left">
-                                <span class="progress-bar border-primary"></span>
-                            </span>
-                            <span class="progress-right">
-                                <span class="progress-bar border-primary"></span>
-                            </span>
-                            <div
-                                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                                <div class="h2 font-weight-bold">83<sup class="small">%</sup></div>
-                            </div>
-                        </div>
-                        <!-- END -->
-
-                        <!-- Demo info -->
-                        <div class="row text-center mt-4">
-                            <div class="col-6 border-right">
-                                <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last
-                                    week</span>
-                            </div>
-                            <div class="col-6">
-                                <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last
-                                    month</span>
-                            </div>
-                        </div>
-                        <!-- END -->
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mb-4">
-                    <div class="bg-white rounded-lg shadow p-4">
-                        <h2 class="h5 font-weight-bold text-center mb-4">SEO</h2>
-
-                        <!-- Progress bar 1 -->
-                        <div class="progress mx-auto" data-value='95'>
-                            <span class="progress-left">
-                                <span class="progress-bar border-primary"></span>
-                            </span>
-                            <span class="progress-right">
-                                <span class="progress-bar border-primary"></span>
-                            </span>
-                            <div
-                                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                                <div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
-                            </div>
-                        </div>
-                        <!-- END -->
-
-                        <!-- Demo info -->
-                        <div class="row text-center mt-4">
-                            <div class="col-6 border-right">
-                                <div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last
-                                    week</span>
-                            </div>
-                            <div class="col-6">
-                                <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last
-                                    month</span>
-                            </div>
-                        </div>
-                        <!-- END -->
                     </div>
                 </div>
             </div>

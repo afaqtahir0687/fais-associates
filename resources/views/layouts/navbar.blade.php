@@ -1,6 +1,14 @@
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
     <div class="container">
-        <a class="navbar-brand" href="index.html">Clyde<span>.</span></a>
+        <div class="col-md-4 col-lg-4">
+            <div class="d-flex flex-column align-items-start" style="position: relative; display: inline-block;">
+                <img src="{{ asset('assets/images/faislogo.png') }}" class="img-fluid logo-img" alt="" style="margin-bottom: 0.25rem; display: block;">
+                <div style="margin-top: 0.25rem;">
+                    <a class="navbar-brand" href="{{route('home')}}" style="margin: 0; padding: 0; line-height: 1.2; display: block;">FAIS Associates Pvt. Ltd.</a>
+                </div>
+            </div>
+        </div>
+        
         <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
         </button>
