@@ -361,7 +361,18 @@
             </div>
         </section>
 
-        <section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="four-column-section">
+                 <div class="about-header-bar">
+    <div class="container mb-3">
+      <div class="row">
+        <div class="col-12 text-center" style="    background: red;
+    color: white;
+    font-weight: bold;">
+          <span class="about-title">Price is important, so lets have a look at how we deal with it.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+        <section class="ftco-about ftco-section ftco-no-pt ftco-no-pb mt-3" id="four-column-section">
         <div class="container">
             <div class="row d-flex align-items-start">
                 <!-- First 4 columns: Image -->
