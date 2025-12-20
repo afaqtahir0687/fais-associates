@@ -169,21 +169,22 @@
         </section>
 
         <section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="about-section">
-           
 
-                <!-- Section Heading -->
-              <div class="about-header-bar">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center" style="    background: red;
+
+            <!-- Section Heading -->
+            <div class="about-header-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center"
+                            style="    background: red;
     color: white;
     font-weight: bold;">
-          <span class="about-title">About Us</span>
-        </div>
-      </div>
-    </div>
-  </div>
- <div class="container">
+                            <span class="about-title">About Us</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
 
                 <div class="row d-flex no-gutters">
 
@@ -279,9 +280,16 @@
 
         <section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="about-section">
             <div class="container">
-                <div class="row justify-content-center pb-5">
-                    <div class="col-md-12 heading-section text-center ftco-animate">
-                        <span class="about-txt mt-5">What we do: A birdeyeview</span>
+                <div class="about-header-bar">
+                    <div class="container mb-3">
+                        <div class="row">
+                            <div class="col-12 text-center"
+                                style="    background: red;
+                                    color: white;
+                                    font-weight: bold;">
+                                <span class="about-title">What we do: A birdeyeview.</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row d-flex no-gutters">
@@ -361,606 +369,710 @@
             </div>
         </section>
 
-                 <div class="about-header-bar">
-    <div class="container mb-3">
-      <div class="row">
-        <div class="col-12 text-center" style="    background: red;
-    color: white;
-    font-weight: bold;">
-          <span class="about-title">Price is important, so lets have a look at how we deal with it.</span>
-        </div>
-      </div>
-    </div>
-  </div>
-        <section class="ftco-about ftco-section ftco-no-pt ftco-no-pb mt-3" id="four-column-section">
-        <div class="container">
-            <div class="row d-flex align-items-start">
-                <!-- First 4 columns: Image -->
-                <div class="col-md-4">
-                    <div class="img-about img d-flex align-items-stretch" style="height: 100%;">
-                        <div class="overlay"></div>
-                        <div class="img d-flex align-self-stretch align-items-center"
-                            style="background-image: url({{ asset('assets/images/team.jpeg') }});
-                   background-size: cover;
-                   background-position: center;
-                   width: 100%;
-                   padding-top: 80%;">
-                        </div>
-                    </div>
-                </div>
-
-
-                <!-- Next 4 columns: Heading + List (Vision / HR & Management Consultancy) -->
-                <div class="col-md-4 pl-md-4">
-                    <div class="heading-section ftco-animate">
-                        <h2 style="font-size: 20px; color:#38387a">1. HR & Management Consultancy</h2>
-                        <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
-                            <li>Build an agile, compliant, and high-performing workforce</li>
-                            <li>HR Policy Development – Labor law-aligned frameworks</li>
-                            <li>Talent Acquisition – From entry-level to C-suite recruitment</li>
-                            <li>Performance Management – Goal-driven evaluation systems</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <style>
-                    ul li::marker {
-                        color: #38387a;
-                        font-size: 20px;
-                    }
-                </style>
-
-                <!-- Last 4 columns: Heading + List (Pricing) -->
-                <div class="col-md-4 pl-md-4">
-                    <div class="heading-section ftco-animate">
-                        <h2 style="font-size: 20px; color:#38387a">Pricing</h2>
-                        <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
-                            <li>Scalable retainers (employee count + service depth)</li>
-                            <li>Project-based options (e.g., policy audits, litigation support)</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="four-column-section">
-        <div class="container">
-            <div class="row d-flex align-items-start">
-                <!-- First 4 columns: Image -->
-                <div class="col-md-4">
-                    <div class="img-about img d-flex align-items-stretch" style="height: 100%;">
-                        <div class="overlay"></div>
-                        <div class="img d-flex align-self-stretch align-items-center"
-                            style="background-image: url({{ asset('assets/images/copy.jpeg') }});
-                   background-size: cover;
-                   background-position: center;
-                   width: 100%;
-                   padding-top: 80%;">
-                        </div>
-                    </div>
-                </div>
-
-
-                <!-- Next 4 columns: Heading + List (Vision / HR & Management Consultancy) -->
-                <div class="col-md-4 pl-md-4">
-                    <div class="heading-section ftco-animate">
-                        <h2 style="font-size: 20px; color:#38387a">2. Corporate Governance Services</h2>
-                        <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
-                            <li>Navigate regulations with confidence</li>
-                            <li>Company Incorporation & SECP Compliance – From startups to subsidiaries.</li>
-                            <li>Contract Drafting & Review – Air-tight agreements for vendors, employees, and partners.</li>
-                            <li>Litigation & Dispute Resolution – Expert representation in labor, tax, and corporate courts.</li>
-                            <li>Intellectual Property Protection – Trademarks, copyrights, and patents.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <style>
-                    ul li::marker {
-                        color: #38387a;
-                        font-size: 20px;
-                    }
-                </style>
-
-                <!-- Last 4 columns: Heading + List (Pricing) -->
-                <div class="col-md-4 pl-md-4">
-                    <div class="heading-section ftco-animate">
-                        <h2 style="font-size: 20px; color:#38387a">Pricing</h2>
-                        <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
-                            <li>Fixed fees for standard services (e.g., incorporation & Litigation).</li>
-                            <li>Hourly based for Opinion Work & Drafting.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="four-column-section">
-    <div class="container">
-        <div class="row d-flex align-items-start">
-            <!-- First 4 columns: Image -->
-            <div class="col-md-4">
-                <div class="img-about img d-flex align-items-stretch" style="height: 100%;">
-                    <div class="overlay"></div>
-                    <div class="img d-flex align-self-stretch align-items-center"
-                        style="background-image: url({{ asset('assets/images/rs.jpeg') }}); 
-                               background-size: cover; 
-                               background-position: center; 
-                               width: 100%; 
-                               padding-top: 80%;">
-                    </div>
-                </div>
-            </div>
-
-            <!-- Next 4 columns: Heading + List (Financial & Tax Advisory) -->
-            <div class="col-md-4 pl-md-4">
-                <div class="heading-section ftco-animate">
-                    <h2 style="font-size: 20px; color:#38387a">3. Financial & Tax Advisory</h2>
-                    <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
-                        <li>Precision-driven finance solutions for stability and growth.</li>
-                        <li>Bookkeeping & Accounting – Accurate, real-time financial tracking.</li>
-                        <li>Tax Planning & SECP Compliance – Avoid penalties, optimize returns.</li>
-                        <li>Auditing & Reporting – Transparent, investor-ready financials.</li>
-                    </ul>
-                </div>
-            </div>
-
-            <style>
-                ul li::marker {
-                    color: #38387a;
-                    font-size: 20px;
-                }
-            </style>
-
-            <!-- Last 4 columns: Heading + List (Pricing) -->
-            <div class="col-md-4 pl-md-4">
-                <div class="heading-section ftco-animate">
-                    <h2 style="font-size: 20px; color:#38387a">Pricing</h2>
-                    <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
-                        <li>Retainer models (scaled by transaction volume and reporting complexity).</li>
-                        <li>Custom pricing for specialized services (e.g., bank leasing, hybrid working, etc).</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="four-column-section-4">
-    <div class="container">
-        <div class="row d-flex align-items-start">
-            <!-- First 4 columns: Image -->
-            <div class="col-md-4">
-                <div class="img-about img d-flex align-items-stretch" style="height: 100%;">
-                    <div class="overlay"></div>
-                    <div class="img d-flex align-self-stretch align-items-center"
-                        style="background-image: url({{ asset('assets/images/laptop.jpeg') }}); 
-                               background-size: cover; 
-                               background-position: center; 
-                               width: 100%; 
-                               padding-top: 80%;">
-                    </div>
-                </div>
-            </div>
-
-            <!-- Next 4 columns: Heading + List (IT & Digital Solutions) -->
-            <div class="col-md-4 pl-md-4">
-                <div class="heading-section ftco-animate">
-                    <h2 style="font-size: 20px; color:#38387a">4. IT & Digital Solutions</h2>
-                    <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
-                        <li>Automate and streamline with cutting-edge technology.</li>
-                        <li>EtimadHCM Payroll & HR Software – Zero-Error Payroll – Guided workflows for flawless processing.</li>
-                        <li>100% Auto-Compliance – PF, EOBI, and tax calculations built-in.</li>
-                        <li>All-in-One Platform – Payroll, attendance, expenses, and analytics.</li>
-                    </ul>
-                </div>
-            </div>
-
-            <style>
-                ul li::marker {
-                    color: #38387a;
-                    font-size: 20px;
-                }
-            </style>
-
-            <!-- Last 4 columns: Heading + List (Pricing) -->
-            <div class="col-md-4 pl-md-4">
-                <div class="heading-section ftco-animate">
-                    <h2 style="font-size: 20px; color:#38387a">Pricing</h2>
-                    <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
-                        <li>Tiered plans (based on features, employee count, and analytics needs).</li>
-                        <li>Volume discounts for enterprises (500+ employees).</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="four-column-section-5">
-    <div class="container">
-        <div class="row d-flex align-items-start">
-            <!-- First 4 columns: Image -->
-            <div class="col-md-4">
-                <div class="img-about img d-flex align-items-stretch" style="height: 100%;">
-                    <div class="overlay"></div>
-                    <div class="img d-flex align-self-stretch align-items-center"
-                        style="background-image: url({{ asset('assets/images/guldan.jpeg') }}); 
-                               background-size: cover; 
-                               background-position: center; 
-                               width: 100%; 
-                               padding-top: 80%;">
-                    </div>
-                </div>
-            </div>
-
-            <!-- Next 4 columns: Heading + List (Corporate Housekeeping Services) -->
-            <div class="col-md-4 pl-md-4">
-                <div class="heading-section ftco-animate">
-                    <h2 style="font-size: 20px; color:#38387a">5. Fresh & Tidy – Corporate Housekeeping Services & Facility Management</h2>
-                    <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
-                        <li>Elevate workplace hygiene and productivity.</li>
-                        <li>Daily/Deep Cleaning – Certified staff using eco-friendly products.</li>
-                        <li>Compliance with health/safety standards.</li>
-                        <li>Staff Trainings (from hospitality trainers) to your existing staff members.</li>
-                    </ul>
-                </div>
-            </div>
-
-            <style>
-                ul li::marker {
-                    color: #38387a;
-                    font-size: 20px;
-                }
-            </style>
-
-            <!-- Last 4 columns: Heading + List (Pricing) -->
-            <div class="col-md-4 pl-md-4">
-                <div class="heading-section ftco-animate">
-                    <h2 style="font-size: 20px; color:#38387a">Pricing</h2>
-                    <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
-                        <li>Custom plans (based on square footage, frequency, and add-ons like 24/7 staffing).</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="four-column-section-6">
-    <div class="container">
-        <div class="row d-flex align-items-start">
-            <!-- First 4 columns: Image -->
-            <div class="col-md-4">
-                <div class="img-about img d-flex align-items-stretch" style="height: 100%;">
-                    <div class="overlay"></div>
-                    <div class="img d-flex align-self-stretch align-items-center"
-                        style="background-image: url({{ asset('assets/images/humann.jpeg') }}); 
-                               background-size: cover; 
-                               background-position: center; 
-                               width: 100%; 
-                               padding-top: 80%;">
-                    </div>
-                </div>
-            </div>
-
-            <!-- Next 4 columns: Heading + List (Training & Event Management) -->
-            <div class="col-md-4 pl-md-4">
-                <div class="heading-section ftco-animate">
-                    <h2 style="font-size: 20px; color:#38387a">6. Training & Event Management</h2>
-                    <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
-                        <li>Elevate skills and brand impact.</li>
-                        <li>Corporate Training Programs – Leadership Development | Compliance Workshops | Technical Upskilling.</li>
-                        <li>Customized Events – Conferences | Product Launches | Team-Building Retreats.</li>
-                    </ul>
-                </div>
-            </div>
-
-            <style>
-                ul li::marker {
-                    color: #38387a;
-                    font-size: 20px;
-                }
-            </style>
-
-            <!-- Last 4 columns: Heading + List (Pricing) -->
-            <div class="col-md-4 pl-md-4">
-                <div class="heading-section ftco-animate">
-                    <h2 style="font-size: 20px; color:#38387a">Pricing</h2>
-                    <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
-                        <li>Per-participant pricing (training) or end-to-end event packages.</li>
-                        <li>Grant-based models for donor projects.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-        <style>
-       
-        .page{
-            width:794px; /* A4 width @96dpi */
-            margin:20px auto;
-            background:#fff;
-            border:1px solid #ddd;
-        }
-        .header{
-            border-bottom:4px solid #c1121f;
-            padding:15px;
-        }
-        .header h4{
-            background:#c1121f;
-            color:#fff;
-            padding:8px 15px;
-            display:inline-block;
-            border-radius:4px;
-            font-size:16px;
-        }
-        .pill{
-            background:#1d4ed8;
-            color:#fff;
-            padding:5px 10px;
-            border-radius:20px;
-            font-size:12px;
-            margin-right:6px;
-            display:inline-block;
-        }
-        .section-title{
-            background:#1d4ed8;
-            color:#fff;
-            padding:8px;
-            font-weight:bold;
-            font-size:14px;
-            margin-bottom:10px;
-        }
-        .card-box{
-            border:1px solid #cbd5e1;
-            padding:10px;
-            margin-bottom:12px;
-            border-radius:4px;
-        }
-        table{
-            font-size:12px;
-        }
-        th{
-            background:#e5e7eb;
-        }
-        .badge-basic{background:#38bdf8;color:#000;}
-        .badge-standard{background:#22c55e;color:#fff;}
-        .badge-premium{background:#facc15;color:#000;}
-        .retainer-box{
-            background:#e0f2fe;
-            border:1px solid #38bdf8;
-            border-radius:6px;
-            padding:10px;
-            margin-bottom:12px;
-        }
-        .retainer-header{
-            background:#0ea5e9;
-            color:#fff;
-            padding:6px;
-            border-radius:4px;
-            font-weight:bold;
-            font-size:13px;
-        }
-        .icon-box{
-            background:#fff;
-            border-radius:6px;
-            padding:8px;
-            text-align:center;
-            font-size:12px;
-            border:1px solid #cbd5e1;
-        }
-        .footer{
-            background:#c1121f;
-            color:#fff;
-            padding:10px;
-            font-size:12px;
-        }
-    </style>
-</head>
-<body>
-
-<div class="page">
-
-
-
-    <div class="row g-0 p-3">
-        <!-- LEFT COLUMN -->
-        <div class="col-md-6 pe-2">
-            <div class="section-title">Individual Services</div>
-
-            <div class="card-box">
-                <strong>Estimated HRM Pricing (Pakistan)</strong>
-                <table class="table table-bordered mt-2">
-                    <thead>
-                        <tr>
-                            <th>Employees</th>
-                            <th>HR Fee (PKR)</th>
-                            <th>Package</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr><td>1–20</td><td>15,000</td><td>Standard</td></tr>
-                        <tr><td>21–50</td><td>25,000</td><td>Premium</td></tr>
-                        <tr><td>51–100</td><td>40,000</td><td>Premium</td></tr>
-                    </tbody>
-                </table>
-                <small class="text-muted">* Prices exclusive of taxes</small>
-            </div>
-
-            <div class="section-title">Policy & Procedures Development</div>
-            <div class="row text-center">
-                <div class="col-4">
-                    <span class="badge badge-basic w-100">Basic<br>33%</span>
-                </div>
-                <div class="col-4">
-                    <span class="badge badge-standard w-100">Standard<br>66%</span>
-                </div>
-                <div class="col-4">
-                    <span class="badge badge-premium w-100">Premium<br>99%</span>
-                </div>
-            </div>
-
-            <div class="card-box mt-2">
-                <ul class="small mb-0">
-                    <li>Basic HR Policies</li>
-                    <li>Up to 3 customizations</li>
-                    <li>1–3 months support</li>
-                </ul>
-            </div>
-
-            <div class="section-title">Recruitment Services</div>
-            <div class="card-box small">
-                <ol class="mb-0">
-                    <li>1–5 positions: PKR 50,000</li>
-                    <li>6–10 positions: PKR 45,000</li>
-                    <li>11–20 positions: PKR 40,000</li>
-                </ol>
-            </div>
-        </div>
-
-        <!-- RIGHT COLUMN -->
-        <div class="col-md-6 ps-2">
-            <div class="section-title">HR Retainership Packages</div>
-
-            <div class="retainer-box">
-                <div class="retainer-header">HR-1 | PKR 75K / Month</div>
-                <div class="row mt-2 g-2">
-                    <div class="col-4"><div class="icon-box">Sourcing<br>3 Positions</div></div>
-                    <div class="col-4"><div class="icon-box">HR Manual<br>Basic</div></div>
-                    <div class="col-4"><div class="icon-box">Payroll<br>Standard</div></div>
-                </div>
-            </div>
-
-            <div class="retainer-box">
-                <div class="retainer-header">HR-2 | PKR 125K / Month</div>
-                <div class="row mt-2 g-2">
-                    <div class="col-4"><div class="icon-box">Sourcing<br>5 Positions</div></div>
-                    <div class="col-4"><div class="icon-box">HR Manual<br>Standard</div></div>
-                    <div class="col-4"><div class="icon-box">Payroll<br>Standard</div></div>
-                </div>
-            </div>
-
-            <div class="retainer-box">
-                <div class="retainer-header">HR-3 | PKR 175K / Month</div>
-                <div class="row mt-2 g-2">
-                    <div class="col-4"><div class="icon-box">Sourcing<br>7 Positions</div></div>
-                    <div class="col-4"><div class="icon-box">HR Manual<br>Premium</div></div>
-                    <div class="col-4"><div class="icon-box">Payroll<br>Premium</div></div>
-                </div>
-            </div>
-
-            <div class="section-title">Additional Services</div>
-            <div class="card-box small">
-                <ol class="mb-0">
-                    <li>HR Advisory & Consulting</li>
-                    <li>Employee Engagement Surveys</li>
-                    <li>Disciplinary Handling</li>
-                    <li>Labour Law Compliance</li>
-                </ol>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer text-center">
-        All services are provided in line with FAIS Associates standards & policies
-    </div>
-</div>
-
-        <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+        <section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="about-section">
             <div class="container">
-                <div class="row justify-content-center mb-5 pb-3">
-                    <div class="col-md-7 heading-section text-center ftco-animate">
-                        <span class="subheading">Contact us</span>
-                        <h2 class="mb-4">Have a Project?</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                <div class="row d-flex no-gutters">
+                    <div class="col-lg-1"></div>
+                    <div class="col-md-4 col-lg-4 d-flex">
+                        <div class="img-about img d-flex align-items-stretch">
+                            <div class="overlay"></div>
+                            <div class="img d-flex align-self-stretch align-items-center mt-5"
+                                style="background-image:url({{ asset('assets/images/mylaptop.webp') }});">
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    <div class="col-md-6 col-lg-7 pl-md-4 pl-lg-5">
+                        <div class="py-md-5">
+                            <div class="row justify-content-start pb-3">
+                                <div class="col-md-12 heading-section ftco-animate">
+                                    <h5 style="font-size: 24px; text-transform: capitalize; font-weight: 500;">
+                                        Technology Solutions
+                                    </h5>
 
-                <div class="row block-9">
-                    <div class="col-md-8">
-                        <form action="#" class="bg-light p-4 p-md-5 contact-form">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Your Name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Your Email">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Subject">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <textarea name="" id="" cols="30" rows="7" class="form-control"
-                                            placeholder="Message"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-
-                    </div>
-
-                    <div class="col-md-4 d-flex pl-md-5">
-                        <div class="row">
-                            <div class="dbox w-100 d-flex">
-                                <div class="icon d-flex align-items-center justify-content-center">
-                                    <span class="fa fa-map-marker"></span>
-                                </div>
-                                <div class="text">
-                                    <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
-                                </div>
-                            </div>
-                            <div class="dbox w-100 d-flex">
-                                <div class="icon d-flex align-items-center justify-content-center">
-                                    <span class="fa fa-phone"></span>
-                                </div>
-                                <div class="text">
-                                    <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
-                                </div>
-                            </div>
-                            <div class="dbox w-100 d-flex">
-                                <div class="icon d-flex align-items-center justify-content-center">
-                                    <span class="fa fa-paper-plane"></span>
-                                </div>
-                                <div class="text">
-                                    <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
-                                </div>
-                            </div>
-                            <div class="dbox w-100 d-flex">
-                                <div class="icon d-flex align-items-center justify-content-center">
-                                    <span class="fa fa-globe"></span>
-                                </div>
-                                <div class="text">
-                                    <p><span>Website</span> <a href="#">yoursite.com</a></p>
+                                    <ol style="padding-left:18px; margin-top:10px;">
+                                        <li>Cloud based Payroll Software (EtimadHCM)</li>
+                                        <li>Cloud based School Management Software</li>
+                                        <li>Website Development</li>
+                                        <li>Graphic Designing</li>
+                                        <li>Performance Mgt. Systems</li>
+                                        <li>Content Writing</li>
+                                    </ol>
                                 </div>
                             </div>
                         </div>
-                        <!-- <div id="map" class="map"></div> -->
                     </div>
                 </div>
             </div>
         </section>
-@endsection
+
+        <div class="about-header-bar">
+            <div class="container mb-3">
+                <div class="row">
+                    <div class="col-12 text-center" style="    background: red;
+    color: white;
+    font-weight: bold;">
+                        <span class="about-title">Price is important, so lets have a look at how we deal with it.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="ftco-about ftco-section ftco-no-pt ftco-no-pb mt-3" id="four-column-section">
+            <div class="container">
+                <div class="row d-flex align-items-start">
+                    <!-- First 4 columns: Image -->
+                    <div class="col-md-4">
+                        <div class="img-about img d-flex align-items-stretch" style="height: 100%;">
+                            <div class="overlay"></div>
+                            <div class="img d-flex align-self-stretch align-items-center"
+                                style="background-image: url({{ asset('assets/images/team.jpeg') }});
+                   background-size: cover;
+                   background-position: center;
+                   width: 100%;
+                   padding-top: 80%;">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Next 4 columns: Heading + List (Vision / HR & Management Consultancy) -->
+                    <div class="col-md-4 pl-md-4">
+                        <div class="heading-section ftco-animate">
+                            <h2 style="font-size: 20px; color:#38387a">1. HR & Management Consultancy</h2>
+                            <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
+                                <li>Build an agile, compliant, and high-performing workforce</li>
+                                <li>HR Policy Development – Labor law-aligned frameworks</li>
+                                <li>Talent Acquisition – From entry-level to C-suite recruitment</li>
+                                <li>Performance Management – Goal-driven evaluation systems</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <style>
+                        ul li::marker {
+                            color: #38387a;
+                            font-size: 20px;
+                        }
+                    </style>
+
+                    <!-- Last 4 columns: Heading + List (Pricing) -->
+                    <div class="col-md-4 pl-md-4">
+                        <div class="heading-section ftco-animate">
+                            <h2 style="font-size: 20px; color:#38387a">Pricing</h2>
+                            <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
+                                <li>Scalable retainers (employee count + service depth)</li>
+                                <li>Project-based options (e.g., policy audits, litigation support)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="four-column-section">
+            <div class="container">
+                <div class="row d-flex align-items-start">
+                    <!-- First 4 columns: Image -->
+                    <div class="col-md-4">
+                        <div class="img-about img d-flex align-items-stretch" style="height: 100%;">
+                            <div class="overlay"></div>
+                            <div class="img d-flex align-self-stretch align-items-center"
+                                style="background-image: url({{ asset('assets/images/copy.jpeg') }});
+                   background-size: cover;
+                   background-position: center;
+                   width: 100%;
+                   padding-top: 80%;">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Next 4 columns: Heading + List (Vision / HR & Management Consultancy) -->
+                    <div class="col-md-4 pl-md-4">
+                        <div class="heading-section ftco-animate">
+                            <h2 style="font-size: 20px; color:#38387a">2. Corporate Governance Services</h2>
+                            <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
+                                <li>Navigate regulations with confidence</li>
+                                <li>Company Incorporation & SECP Compliance – From startups to subsidiaries.</li>
+                                <li>Contract Drafting & Review – Air-tight agreements for vendors, employees, and partners.
+                                </li>
+                                <li>Litigation & Dispute Resolution – Expert representation in labor, tax, and corporate
+                                    courts.</li>
+                                <li>Intellectual Property Protection – Trademarks, copyrights, and patents.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <style>
+                        ul li::marker {
+                            color: #38387a;
+                            font-size: 20px;
+                        }
+                    </style>
+
+                    <!-- Last 4 columns: Heading + List (Pricing) -->
+                    <div class="col-md-4 pl-md-4">
+                        <div class="heading-section ftco-animate">
+                            <h2 style="font-size: 20px; color:#38387a">Pricing</h2>
+                            <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
+                                <li>Fixed fees for standard services (e.g., incorporation & Litigation).</li>
+                                <li>Hourly based for Opinion Work & Drafting.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="four-column-section">
+            <div class="container">
+                <div class="row d-flex align-items-start">
+                    <!-- First 4 columns: Image -->
+                    <div class="col-md-4">
+                        <div class="img-about img d-flex align-items-stretch" style="height: 100%;">
+                            <div class="overlay"></div>
+                            <div class="img d-flex align-self-stretch align-items-center"
+                                style="background-image: url({{ asset('assets/images/rs.jpeg') }});
+                               background-size: cover;
+                               background-position: center;
+                               width: 100%;
+                               padding-top: 80%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Next 4 columns: Heading + List (Financial & Tax Advisory) -->
+                    <div class="col-md-4 pl-md-4">
+                        <div class="heading-section ftco-animate">
+                            <h2 style="font-size: 20px; color:#38387a">3. Financial & Tax Advisory</h2>
+                            <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
+                                <li>Precision-driven finance solutions for stability and growth.</li>
+                                <li>Bookkeeping & Accounting – Accurate, real-time financial tracking.</li>
+                                <li>Tax Planning & SECP Compliance – Avoid penalties, optimize returns.</li>
+                                <li>Auditing & Reporting – Transparent, investor-ready financials.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <style>
+                        ul li::marker {
+                            color: #38387a;
+                            font-size: 20px;
+                        }
+                    </style>
+
+                    <!-- Last 4 columns: Heading + List (Pricing) -->
+                    <div class="col-md-4 pl-md-4">
+                        <div class="heading-section ftco-animate">
+                            <h2 style="font-size: 20px; color:#38387a">Pricing</h2>
+                            <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
+                                <li>Retainer models (scaled by transaction volume and reporting complexity).</li>
+                                <li>Custom pricing for specialized services (e.g., bank leasing, hybrid working, etc).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="four-column-section-4">
+            <div class="container">
+                <div class="row d-flex align-items-start">
+                    <!-- First 4 columns: Image -->
+                    <div class="col-md-4">
+                        <div class="img-about img d-flex align-items-stretch" style="height: 100%;">
+                            <div class="overlay"></div>
+                            <div class="img d-flex align-self-stretch align-items-center"
+                                style="background-image: url({{ asset('assets/images/laptop.jpeg') }});
+                               background-size: cover;
+                               background-position: center;
+                               width: 100%;
+                               padding-top: 80%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Next 4 columns: Heading + List (IT & Digital Solutions) -->
+                    <div class="col-md-4 pl-md-4">
+                        <div class="heading-section ftco-animate">
+                            <h2 style="font-size: 20px; color:#38387a">4. IT & Digital Solutions</h2>
+                            <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
+                                <li>Automate and streamline with cutting-edge technology.</li>
+                                <li>EtimadHCM Payroll & HR Software – Zero-Error Payroll – Guided workflows for flawless
+                                    processing.</li>
+                                <li>100% Auto-Compliance – PF, EOBI, and tax calculations built-in.</li>
+                                <li>All-in-One Platform – Payroll, attendance, expenses, and analytics.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <style>
+                        ul li::marker {
+                            color: #38387a;
+                            font-size: 20px;
+                        }
+                    </style>
+
+                    <!-- Last 4 columns: Heading + List (Pricing) -->
+                    <div class="col-md-4 pl-md-4">
+                        <div class="heading-section ftco-animate">
+                            <h2 style="font-size: 20px; color:#38387a">Pricing</h2>
+                            <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
+                                <li>Tiered plans (based on features, employee count, and analytics needs).</li>
+                                <li>Volume discounts for enterprises (500+ employees).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="four-column-section-5">
+            <div class="container">
+                <div class="row d-flex align-items-start">
+                    <!-- First 4 columns: Image -->
+                    <div class="col-md-4">
+                        <div class="img-about img d-flex align-items-stretch" style="height: 100%;">
+                            <div class="overlay"></div>
+                            <div class="img d-flex align-self-stretch align-items-center"
+                                style="background-image: url({{ asset('assets/images/guldan.jpeg') }});
+                               background-size: cover;
+                               background-position: center;
+                               width: 100%;
+                               padding-top: 80%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Next 4 columns: Heading + List (Corporate Housekeeping Services) -->
+                    <div class="col-md-4 pl-md-4">
+                        <div class="heading-section ftco-animate">
+                            <h2 style="font-size: 20px; color:#38387a">5. Fresh & Tidy – Corporate Housekeeping Services &
+                                Facility Management</h2>
+                            <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
+                                <li>Elevate workplace hygiene and productivity.</li>
+                                <li>Daily/Deep Cleaning – Certified staff using eco-friendly products.</li>
+                                <li>Compliance with health/safety standards.</li>
+                                <li>Staff Trainings (from hospitality trainers) to your existing staff members.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <style>
+                        ul li::marker {
+                            color: #38387a;
+                            font-size: 20px;
+                        }
+                    </style>
+
+                    <!-- Last 4 columns: Heading + List (Pricing) -->
+                    <div class="col-md-4 pl-md-4">
+                        <div class="heading-section ftco-animate">
+                            <h2 style="font-size: 20px; color:#38387a">Pricing</h2>
+                            <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
+                                <li>Custom plans (based on square footage, frequency, and add-ons like 24/7 staffing).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="four-column-section-6">
+            <div class="container">
+                <div class="row d-flex align-items-start">
+                    <!-- First 4 columns: Image -->
+                    <div class="col-md-4">
+                        <div class="img-about img d-flex align-items-stretch" style="height: 100%;">
+                            <div class="overlay"></div>
+                            <div class="img d-flex align-self-stretch align-items-center"
+                                style="background-image: url({{ asset('assets/images/humann.jpeg') }});
+                               background-size: cover;
+                               background-position: center;
+                               width: 100%;
+                               padding-top: 80%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Next 4 columns: Heading + List (Training & Event Management) -->
+                    <div class="col-md-4 pl-md-4">
+                        <div class="heading-section ftco-animate">
+                            <h2 style="font-size: 20px; color:#38387a">6. Training & Event Management</h2>
+                            <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
+                                <li>Elevate skills and brand impact.</li>
+                                <li>Corporate Training Programs – Leadership Development | Compliance Workshops | Technical
+                                    Upskilling.</li>
+                                <li>Customized Events – Conferences | Product Launches | Team-Building Retreats.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <style>
+                        ul li::marker {
+                            color: #38387a;
+                            font-size: 20px;
+                        }
+                    </style>
+
+                    <!-- Last 4 columns: Heading + List (Pricing) -->
+                    <div class="col-md-4 pl-md-4">
+                        <div class="heading-section ftco-animate">
+                            <h2 style="font-size: 20px; color:#38387a">Pricing</h2>
+                            <ul style="list-style-type: disc; padding-left: 20px; text-align:justify;">
+                                <li>Per-participant pricing (training) or end-to-end event packages.</li>
+                                <li>Grant-based models for donor projects.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <div class="page">
+
+                <!-- POLICY & PROCEDURES DEVELOPMENT -->
+                <div class="about-header-bar">
+                    <div class="container mb-3">
+                        <div class="row">
+                            <div class="col-12 text-center"
+                                style="    background: red;
+    color: white;
+    font-weight: bold;">
+                                <span class="about-title">Policy & Procedures Development Services</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2">
+
+                    <!-- BASIC -->
+                    <div class="col-4">
+                        <div class="policy-box basic">
+                            <div class="policy-title">Basic Policy</div>
+                            <div class="policy-price">33K</div>
+                            <div class="policy-feature">Basic Policies</div>
+                            <div class="policy-feature">upto 1 time Customization</div>
+                            <div class="policy-feature">1 Month Support</div>
+                            <div class="policy-feature">Max. 3 Online Sessions for Support</div>
+                        </div>
+                    </div>
+
+                    <!-- STANDARD -->
+                    <div class="col-4">
+                        <div class="policy-box standard">
+                            <div class="policy-title">Standard Policy</div>
+                            <div class="policy-price">66K</div>
+                            <div class="policy-feature">Basic Policies + PMS & Rec</div>
+                            <div class="policy-feature">upto 2 times Customizations</div>
+                            <div class="policy-feature">2 Months Support</div>
+                            <div class="policy-feature">Max. 5 online Sessions for Support</div>
+                        </div>
+                    </div>
+
+                    <!-- PREMIUM -->
+                    <div class="col-4">
+                        <div class="policy-box premium">
+                            <div class="policy-title">Premium Policy</div>
+                            <div class="policy-price">99K</div>
+                            <div class="policy-feature">Standard Policies + Industry Specific Policies</div>
+                            <div class="policy-feature">upto 3 times Customizations</div>
+                            <div class="policy-feature">3 Months Support</div>
+                            <div class="policy-feature">Max. 7 online Sessions for Support</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+                <div class="about-header-bar mt-3">
+                    <div class="container mb-3">
+                        <div class="row">
+                            <div class="col-12 text-center"
+                                style="    background: red;
+    color: white;
+    font-weight: bold;">
+                                <span class="about-title">Recruitment Services</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-2 justify-content-center">
+                    <div class="col-md-8">
+                        <div class="policy-box basic">
+                            <p>
+                                1. Monthly Positions: 1-5 [@Rs.50,000/- per position]<br>
+                                2. Monthly Positions: 6-10 [@Rs.45,000/- per position]<br>
+                                3. Monthly Positions: 11-20 [@Rs.40,000/- per position]<br>
+                                4. Flat Rate over 20 positions: [@Rs.38,000/- per position]
+                            </p>
+                            <p style="font-size: 14px; color: #555;">
+                                <strong>Note:</strong> These rates are for recruitment of regular office-based white collar
+                                staff members under normal circumstances. For Blue Collar / Technical positions, or scarce
+                                candidate situations, separate rates shall apply as per the business context of each
+                                company.
+
+                                <br>
+                                <br>
+                                Please also note that Recruitment for GM-level and above will
+                                be charged separately at a fee equivalent to one month's
+                                gross salary or more, as per the seniority of the candidate
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+<div class="container my-5">
+
+  <!-- Section Header -->
+  <div class="text-center mb-4">
+    <div class="about-header-bar mt-3">
+                    <div class="container mb-3">
+                        <div class="row">
+                            <div class="col-12 text-center"
+                                style="    background: red;
+    color: white;
+    font-weight: bold;">
+                                <span class="about-title">HR Retainership Packages</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    <p class="text-danger fw-semibold">Duration – Min. 12 Months</p>
+    <p class="text-muted">
+      Recruitment + Payroll Software + HR Policy Manual
+    </p>
+  </div>
+
+  <div class="row g-4">
+
+    <!-- HR-1 -->
+    <div class="col-md-4">
+      <div class="card retain-card text-center">
+        <div class="card-header bg-primary text-white">
+          <h5>HR-1</h5>
+          <p class="mb-0">Rs. 75k / Month</p>
+        </div>
+        <div class="card-body">
+          <ul class="list-unstyled">
+            <li>👥 Sourcing: <strong>3 Positions</strong></li>
+            <li>📘 HR Manual: <strong>Yes (Basic)</strong></li>
+            <li>💻 Payroll Software: <strong>Yes</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- HR-2 -->
+    <div class="col-md-4">
+      <div class="card retain-card text-center">
+        <div class="card-header bg-primary text-white">
+          <h5>HR-2</h5>
+          <p class="mb-0">Rs. 125k / Month</p>
+        </div>
+        <div class="card-body">
+          <ul class="list-unstyled">
+            <li>👥 Sourcing: <strong>5 Positions</strong></li>
+            <li>📘 HR Manual: <strong>Yes (Std)</strong></li>
+            <li>💻 Payroll Software: <strong>Yes</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- HR-3 -->
+    <div class="col-md-4">
+      <div class="card retain-card text-center">
+        <div class="card-header bg-primary text-white">
+          <h5>HR-3</h5>
+          <p class="mb-0">Rs. 175k / Month</p>
+        </div>
+        <div class="card-body">
+          <ul class="list-unstyled">
+            <li>👥 Sourcing: <strong>7 Positions</strong></li>
+            <li>📘 HR Manual: <strong>Yes (Prem)</strong></li>
+            <li>💻 Payroll Software: <strong>Yes</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Why Packages -->
+  <div class="row mt-5">
+    <div class="col-md-6">
+      <h5 class="fw-bold text-danger">Why Packages</h5>
+      <ol class="ps-3">
+        <li>All in One</li>
+        <li>Economical</li>
+        <li>Sourcing</li>
+        <li>Software</li>
+      </ol>
+    </div>
+
+    <div class="col-md-6">
+      <p class="text-muted">
+        We offer flexible monthly HR retainership services tailored to your
+        business size — whether you’re a growing team of up to 20, an expanding
+        company of 20–100, or a large organization of 100–500.
+      </p>
+    </div>
+  </div>
+
+</div>
+
+
+
+            </div>
+
+
+
+
+
+            <div class="about-header-bar mt-3">
+                    <div class="container mb-3">
+                        <div class="row">
+                            <div class="col-12 text-center"
+                                style="    background: red;
+    color: white;
+    font-weight: bold;">
+                                <span class="about-title">Additional Services</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row g-2 justify-content-center">
+                    <div class="col-md-8">
+                        <div class="policy-box basic">
+                           <div class="row g-2 justify-content-center">
+    <div class="col-md-8">
+
+            <p>
+                1) Provision of legal opinions on HR matters<br>
+                2) Conducting employee engagement and satisfaction surveys<br>
+                3) Assistance in labor and employment-related litigation<br>
+                4) Drafting and vetting of HR policies and employment contracts<br>
+                5) HR compliance audits and gap analysis<br>
+                6) Representation before labor courts and regulatory authorities<br>
+                7) Advisory on industrial relations and dispute resolution
+            </p>
+            <p style="font-size: 11px; color: #555;">
+                <strong>Important Notes:</strong><br>
+                8) All charges mentioned are exclusive of applicable taxes.<br>
+                9) All services will be provided in line with the Standard Trading Conditions of Fias Associates Pvt. Ltd.
+            </p>
+
+            <div class="row justify-content-center mb-3">
+    <div class="col-md-8 text-center">
+        <p style="color: red; font-weight: bold; font-size: 14px; margin: 0;">
+            "Together with our clients, we build a future where success is shared, growth is mutual, and every win is a win for all."
+        </p>
+    </div>
+</div>
+
+    </div>
+</div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+                <div class="container">
+                    <div class="row justify-content-center mb-5 pb-3">
+                        <div class="col-md-7 heading-section text-center ftco-animate">
+                            <span class="subheading">Contact us</span>
+                            <h2 class="mb-4">Have a Project?</h2>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                        </div>
+                    </div>
+
+                    <div class="row block-9">
+                        <div class="col-md-8">
+                            <form action="#" class="bg-light p-4 p-md-5 contact-form">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Your Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Your Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Subject">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+
+                        <div class="col-md-4 d-flex pl-md-5">
+                            <div class="row">
+                                <div class="dbox w-100 d-flex">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-map-marker"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+                                    </div>
+                                </div>
+                                <div class="dbox w-100 d-flex">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-phone"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+                                    </div>
+                                </div>
+                                <div class="dbox w-100 d-flex">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-paper-plane"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                                    </div>
+                                </div>
+                                <div class="dbox w-100 d-flex">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <span class="fa fa-globe"></span>
+                                    </div>
+                                    <div class="text">
+                                        <p><span>Website</span> <a href="#">yoursite.com</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div id="map" class="map"></div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        @endsection
